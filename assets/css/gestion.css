@@ -1,0 +1,63 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: whitesmoke;
+
+}
+
+td,th {
+    text-align: center;
+}
+
+h5 {
+    font-size: 15px !important;
+}
+
+th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    background-color: whitesmoke;
+}
+
+.btn_t {
+    position: unset;
+}
+
+.img-fluid {
+    height: 80px !important;
+    width: 80px !important;
+    box-shadow: gray 0px 2px 2px;
+}
+
+.overflow-auto {
+    height: 960px !important;
+}
+
+.file {
+    border-left: 2px solid #FF7200;
+}
+
+.alert {
+    -webkit-animation: fade-out 0.5s linear 5.5s both;
+    animation: fade-out 0.5s linear 5.5s both;
+}
+
+@-webkit-keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

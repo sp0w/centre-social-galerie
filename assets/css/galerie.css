@@ -1,0 +1,33 @@
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: whitesmoke;
+}
+
+.titre ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.titre {
+    margin-bottom: 5px;
+    border-radius: 1px;
+    margin-left: 5px;
+    opacity: 0.85;
+    position: absolute;
+    bottom: 0;
+    background-color: #FF7200;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 12px;
+}
+
+.img-fluid {
+    height: 350px;
+    width: 400px !important;
+    box-shadow: gray 0px 4px 4px;
+}
+
+.img-fluid:hover {
+    background-color: #FF7200;
+}
